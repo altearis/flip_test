@@ -1,0 +1,44 @@
+.button {
+    background-color: #1c87c9;
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#trxList {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  #trxList td, #trxList th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #trxList tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #trxList tr:hover {background-color: #ddd;}
+  
+  #trxList th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+  #left-box{
+    float:left;
+  }
+  #left-box h2{
+      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      font-size: 2em;
+  }
+  #right-box{
+    float:right;
+    vertical-align: bottom;
+}
