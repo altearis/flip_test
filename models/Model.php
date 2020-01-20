@@ -90,7 +90,6 @@ class Model {
 			$psUp->bindParam(":respApi",$api_response);
 			$psUp->bindParam(":updDate",$dateNow);
 			$psUp->bindParam(":autoId",$autoId);
-			$psUp->bindParam($request_status,$request_receipt,$time_served,$api_response,$dateNow,$autoId);
 			$psUp->execute();
 
 	}

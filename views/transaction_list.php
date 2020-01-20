@@ -24,7 +24,7 @@ require_once("configs/Constant.php");
                         <th>Create Date</th>
                         <th>Last Update</th>                        
 						<th>Option</th>
-					</th>
+					</tr>
 					<?php 
 
 						foreach ($result as $key => $rows)
